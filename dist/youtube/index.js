@@ -60,7 +60,7 @@ async function searchMusic(query, page) {
     });
     var config = {
         method: "post",
-        url: "https://www.youtube.com/youtubei/v1/search?prettyPrint=false",
+        url: "https://www.youtube.com/youtube/v1/search?prettyPrint=false",
         headers: {
             "Content-Type": "text/plain",
         },
