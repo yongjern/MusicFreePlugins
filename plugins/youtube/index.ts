@@ -68,7 +68,7 @@ async function searchMusic(query, page) {
 
   var config = {
     method: "post",
-    url: "https://www.youtube.com/youtubei/v1/search?prettyPrint=false",
+    url: "https://www.youtube.com/youtube/v1/search?prettyPrint=false",
     headers: {
       "Content-Type": "text/plain",
     },
@@ -211,8 +211,8 @@ async function getMediaSource(musicItem, quality) {
 
 module.exports = {
   platform: "Youtube",
-  author: '猫头猫',
-  version: "0.0.1",
+  author: '@yongjern',
+  version: "0.0.2",
   supportedSearchType: ["music"],
   srcUrl:
     "https://gitee.com/maotoumao/MusicFreePlugins/raw/v0.1/dist/youtube/index.js",
